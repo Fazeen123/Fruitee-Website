@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.Content-containor{
+    width: 60%;
+    margin: 10px;
+    transition: 0.4s all linear;
+    border-radius: 10px;
+    color: rgb(11, 59, 101);
+    font-family: 'Poppins';
+}
+.Question{
+    width: 100%;
+    background-color: rgb(225, 237, 248);
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+.Question:hover{
+    color: aliceblue;
+    background-color: rgb(9, 161, 237);
+}
+.Answer-containor{
+    background-color: rgb(245, 247, 248);
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.4s all linear;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.Answer{
+    width: 100%;
+    padding: 20px;
+
+}
+.Content-containor.active .Answer-containor{
+    max-height: 300px;
+}

@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "27855000000008075",
+      "name": "Fruitee-website",
+      "domain": {
+        "id": "10087777328",
+        "name": "fruitee-website-861688733.development"
+      },
+      "timezone": "Asia/Karachi",
+      "env": [
+        {
+          "idx": 1,
+          "id": "861688733",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

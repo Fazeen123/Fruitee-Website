@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.main-first-content-home{
+    width: 100vw;
+    display: flex;
+    height: 580px;
+    padding: 10px 0px;
+    background-color: antiquewhite;
+    
+}
+.first-half-fh{
+    width: 65%;
+    height: 550px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    margin: 10px 30px;
+    padding-left: 50px;
+    display: flex;
+    transition: 0.4s all ease-in;
+    flex-direction: column;
+    justify-content: center;
+    animation: SlideAnimation;
+    animation-duration: 2.0s;
+    
+}
+.second-half-fh{
+    width: 40%;
+    height: 550px;
+    background-image:  url('/Images/juiceStall.jpg');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    animation: rightSideAnimation;
+    animation-duration: 2.0s;
+    
+}
+.slogan-1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'DM Serif Display';
+    color: rgb(248, 161, 47);
+ 
+}
+.slogan-2{
+    margin: 10px;
+    padding: 10px;
+    width: 370px;
+    font-size: 48px;
+    font-family: 'DM Serif Display';
+    color: rgb(117, 68, 5);
+}
+
+.check-out-btn{
+    width: 130px;
+    padding: 5px 10px;
+    border: 1px solid rgb(64, 37, 2);
+    font-size: 14px;
+    font-weight: 450;
+    font-family: 'DM Serif Display';
+    letter-spacing: 1px;
+    background-color: rgb(240, 209, 170);
+    color: rgb(117, 68, 5);
+    transition: 0.4s all linear;
+    display: flex;
+    margin-left: 20px;
+}
+.check-out-btn:hover{
+    color: rgba(29, 16, 1, 0.8);    
+    background-color: rgba(238, 209, 170,0.7);
+    opacity: 1;
+}
+.single-down-arrow{
+    margin-left: 10px;
+    height: 20px;
+    width: 15px;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:900px) {
+    .main-first-content-home{
+        width: 100vw;
+        height: 570px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .first-half-fh{
+        width: 50%;
+        height: 500px;
+        padding: 20px;
+    }
+    .slogan-1{
+        font-size: 18px;
+    }
+    .slogan-2{
+        width: 280px;
+        font-size: 32px;
+    }
+    .check-out-btn{
+        width: 130px;
+        padding: 5px 10px
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .first-half-fh{
+        width: 50%;
+        margin: 10px 20px;
+        padding-left: 0px;
+    }
+    .slogan-2{
+        width: 100%;
+        font-size: 24px;
+    }
+    .check-out-btn{
+        display: flex;
+        align-items: center;
+        width: 100px;
+        font-size: 10px;
+        padding: 5px 10px
+    }
+    .second-half-fh{
+        width: 50%;
+        height: 500px;
+        background-image:  url('/Images/juiceStall.jpg');
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        animation: rightSideAnimation;
+        animation-duration: 2.0s;
+        
+    }
+    
+}
+
+@keyframes SlideAnimation{
+    from{
+        transform: translateX(-95%);
+        opacity: 0px;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes rightSideAnimation{
+
+    from{
+        transform:translateX(50%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}

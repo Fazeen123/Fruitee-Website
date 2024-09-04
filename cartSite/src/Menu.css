@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.Menu-containor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Menu-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Menu-heading{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px;
+    color: rgb(74, 44, 5);
+}
+.Menu-heading-containor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 20px 20px 20px;
+}
+
+@media screen and (max-width:550px) {
+
+    .Menu-heading{
+        font-size: 18px;
+    }
+    
+}

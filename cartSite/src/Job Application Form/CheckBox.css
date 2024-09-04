@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.form-control{
+    width: 70vw;
+}
+.checkbox-containor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.check-box{
+    margin: 10px ;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.check-box>label{
+    padding-left: 10px;
+    font-size: 18px;
+}
+.check-box>input{
+    height: 17px;
+    width: 17px;
+}

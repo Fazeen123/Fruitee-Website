@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.main-third-home-containor{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+.third-home-heading{
+    font-family: 'poppins';
+    padding: 15px;
+    padding-top:20px 20px 50px 200px ;
+    margin: 10px;
+    margin-left: 200px;
+    text-align: left;
+    font-size: 38px;
+    font-weight: 500;
+    color: rgb(63, 36, 1);
+}
+.underline{
+    height: 2.5px;
+    width: 250px;
+    background-color: rgb(250, 187, 105);
+}
+.frutiees{
+    color: rgb(146, 85, 6);
+}
+.third-home-content-contaonor{
+    width: 100vw;
+    height: 550px;
+    display: flex;
+}
+.leftside-third-home{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.intro-picture-background{
+    height: 90%;
+    width: 60%;
+    background-color: rgb(250, 242, 230);
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: 0.4s all ease;
+    animation-name: Intro-picture-animation;
+    animation-duration: 1.7s;
+}
+.drink-bottle-image-containor{
+    height: 430px;
+    width: 330px;
+    position: absolute;
+    left: 40px;
+    display: flex;
+    flex-shrink: 2;
+
+}
+.drink-bottle-image{
+    display: flex;
+    flex-shrink: 2;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    border-radius: 0p 10px 10px 0px;
+}
+.drink-bottle-image-containor > img {    
+    border-radius: 0px 20px 20px 0px;
+}
+.rightside-third-home {
+    width: 50%;
+    height: 90%;
+    background-color: rgb(250, 242, 230);
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; 
+    /* padding-left: 20px; */
+    transition: 0.4s all ease; 
+    animation-name: right-side-animation;
+    animation-duration: 2s;  
+}
+.frutiees-detail-containor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    margin-top: 10px
+}
+.frooties-details-heading{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(63, 36, 1);
+    font-family: "poppins";
+    font-size: 25px;
+    font-weight: 450;
+}
+.frutiees-details{
+    width: 450px;
+    padding: 10px;
+    font-weight: 450;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'poppins';
+    color: rgb(63, 36, 1);
+}
+.mission-containor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 40px 20px;
+}
+.mission-heading{
+    font-family: 'poppins';
+    font-size: 24px;
+    color: rgb(249, 148, 16);
+    font-weight: 450;
+    padding-bottom: 10px;
+}
+.mission-containor{
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 450;
+    color: rgb(63, 36, 1);
+}
+.rightside-third-home-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0px 0px 10px;
+    /* margin-left: 10px; */
+    background-color: rgba(216, 215, 213, 0.761);
+}
+
+@media screen and (max-width:920px) {
+    .main-third-home-containor{
+        padding: 10px;
+        padding-left: 0px;
+    }
+    .third-home-heading{
+        margin: 10px 30px;
+        font-size: 28px;
+    }
+    .leftside-third-home{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .rightside-third-home{
+        width: 65%;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .intro-picture-background{
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        height: 80%;
+        width: 170px;
+    }
+    .drink-bottle-image-containor{
+        width: 220px;
+        height: 250px;
+        position: absolute;
+        left: 20px;
+    }
+    .drink-bottle-image-containor > img {
+        
+        border-radius: 0px 20px 20px 0px;
+        width: 200px;
+        height: 250x;
+    }
+    .frooties-details-heading,.mission-heading{
+        font-size: 22px;
+    }
+    .frutiees-details,.mission-containor{
+        font-size: 14px;
+    }
+    .rightside-third-home-content{
+        width: 97%;
+        padding-left:20px ;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .main-third-home-containor{
+        width: 100%;
+        /* background-color: orange; */
+    }
+    .third-home-heading{
+        font-size: 18px;
+    }
+    .third-home-content-contaonor{
+        padding: 0px;
+        /* background-color: pink; */
+    }
+    .leftside-third-home{
+        width: 40%;
+    }
+    .intro-picture-background{
+        width: 99%;
+        position: relative;
+    }
+    .drink-bottle-image-containor{
+        position: absolute;
+        left: 0px;
+        height: 150px;
+        width: 120px;
+    }
+    .drink-bottle-image-containor .drink-bottle-image{
+        width: 120px;
+        height: 150px;
+    }
+    .rightside-third-home{
+        width: 65%;
+    }
+    .rightside-third-home-content{
+        width: 100%;
+        margin: 5px;
+        padding: 0px;
+    }
+    .frutiees-detail-containor{
+        width: 100%;
+    }
+    .frooties-details-heading{
+        font-size: 16px;
+        margin: 0px;
+        
+    }
+    .frutiees-details{
+        width: 100%;
+        font-size: 11px;
+    }
+    .mission-containor{
+        width: 100;
+    }
+    .mission-heading{
+        font-size: 16px;
+    }
+    .mission-content{
+        font-size: 11px;
+    }
+}
+
+@keyframes Intro-picture-animation{
+
+    from{
+        transform: translateX(-200%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes right-side-animation{
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;    
+    }
+}

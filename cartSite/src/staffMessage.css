@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.staff-msg-heading-containor{
+    padding: 10px 20px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.staff-msg-heading{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 10px;
+    margin-left: 30px;
+    font-size: 38px;
+    color: rgb(63, 36, 1);
+}
+.our-staffs{
+    margin-left: 5px;
+    color: rgb(140, 82, 7);
+}
+.underline-staff-msg{
+        width: 350px;
+        margin-left: 40px;
+        background-color: rgb(247, 146, 16);
+        height: 2.5px;
+}
+.msg-containor{
+    padding: 10px;
+    width: 100vw;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: lightgreen; */
+}
+
+.msg-content{
+    width: 100%;
+    max-height: 500px;
+    /* background-color: pink; */
+    margin: 5px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content:center;
+    /* background-color: plum; */
+}
+.left-side, .right-side{
+    width: 50%;
+    margin: 5px;
+    padding: 10px;
+    /* background-color: green; */
+}
+.left-side{
+    /* background-color: rgb(251, 251, 118); */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.staff-image-containor,.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+}
+.staff-iamge{
+    width: 250px;
+    border-radius: 30%;
+}
+.staff-title{
+    font-size: 22px;
+    padding: 10px;
+    /* background-color: pink; */
+    text-align: center;
+}
+.message-containor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message{
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px;
+    padding-top: 50px
+}
+.nameofStaff{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+.left-staff-image-containor,.right-staff-image-containor{
+    width: 35%;
+    /* background-color: green; */
+    display: flex;
+    
+}
+
+@media screen and (max-width:900px) {
+
+    .staff-msg-heading{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .underline-staff-msg{
+        width: 260px;
+        height: 2.5px;
+    }
+    
+}
+@media screen and (max-width:550px) {
+        .msg-content{
+            width: 100%;
+            /* background-color: orange; */
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 2;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .staff-image-containor{
+            width: 100%;
+            height: 40%;
+            /* background-color: red; */
+            padding: 0px;
+        }
+        .staff-title{
+            width: 70%;
+            font-size: 16px;
+            font-weight: 450;
+            padding: 0px;
+            padding-bottom: 10px;
+            /* background-color: pink; */
+            text-align: center;
+        }
+        .staff-iamge{
+            width: 100px;
+            border-radius: 30%;
+        }
+        .message-containor{
+            width: 100%;
+            /* background-color: purple;             */
+        }
+        .message{
+            font-size: 12px;
+            text-align: justify;
+            padding: 10px;
+            padding-top: 10px;
+        }
+        #manager-msg{
+            /* background-color: yellow; */
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .staff-msg-heading-containor{
+            padding: 10px 20px;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .staff-msg-heading{
+            font-size: 18px;
+        }
+        .underline-staff-msg{
+                width: 150px
+        }
+}

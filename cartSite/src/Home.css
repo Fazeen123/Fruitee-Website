@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.home-main-containor{
+    width: 100vw;
+}
+footer{
+    width: 100vW;
+    font-size: 12px;
+    padding: 5px 10px 15px 10px;
+    color: rgba(248, 226, 199, 0.4);
+    background-color: rgb(23, 13, 1);
+    text-align: center;
+    padding-right: 150px;
+}

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.form-control{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.form-control > label{
+    height: 25px;
+    font-size: 18px;
+}
+.form-control > .field{
+    width: 300px;
+    padding: 3px;
+    height: 28px;
+    font-size: 16px;
+    outline:  rgb(79, 79, 244);
+        
+}

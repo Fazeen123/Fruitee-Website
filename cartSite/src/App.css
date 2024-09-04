@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.App-Main-containor{
+    width: 100vw;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: antiquewhite;
+    margin: 0px;
+}
+
+@media screen and (max-width:900px) {
+    .footer{
+        width: 100vw;
+        height: 14px;
+        padding-left: 150px;
+        display: flex;
+        justify-content: center;
+        align-items:baseline;
+        padding-top: 5px;
+        font-size: 8px;
+        margin: 0px;
+    }    
+}

@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.Main-Footer-Containor{
+    width: 100vw;
+}
+.main-footer-containor{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: rgb(36, 20, 1);
+    color: rgba(248, 232, 213,0.6);
+    font-family: 'Poppins';
+}
+.footer-content-containor{
+    display: flex;
+    flex-direction: column;
+}
+.footer-contents{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 20px 0px;
+}
+.coulmn-1{
+    padding: 10px;
+    width: 200px;
+}
+
+.footer-content-3{
+    margin: 20px;
+}
+.social-connections{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social-icons{
+    height: 25px;
+    width: 25px;
+    margin: 10px 20px;
+    transition: 0.4s all ease;
+    
+}
+.social-icons:hover{
+    color: rgb(250, 229, 203);    
+}
+.coulmn-1 ul{
+    
+    padding: 10px 20px;
+    width: 200px;
+}
+.coulmn-1 ul li{
+    text-decoration: none;
+    list-style: none;
+    font-family:'poppins' ;
+    padding: 10px;
+    font-weight: 400;
+    transition: 0.4s all linear;
+    cursor: pointer;
+}
+.coulmn-1 ul li:hover{
+    color: rgba(248, 232, 213,1);
+}
+.btn , .services-btn{
+    text-decoration: none;
+    color: rgba(248, 232, 213,0.6);
+    transition: 0.4s all linear;
+}
+.services-btn:hover, .btn:hover{
+    
+    color: rgba(248, 232, 213,1);
+}
+.up-icon-containor{
+    background-color: antiquewhite;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.up-direction-icon{
+    height: 30px;
+    border-radius: 45%;
+    padding: 5px;
+    width: 30px;
+    color: rgb(91, 56, 11);
+    background-color: rgb(230, 222, 211);
+    border: 1px rgb(233, 207, 173) groove;
+    transition: 0.5s all ease;
+}
+.up-direction-icon:hover{
+    background-color: rgba(234, 143, 25,0.7);
+    color: rgb(247, 238, 226);
+}
+
+@media screen and (max-width:900px){
+    .Main-Footer-Containor{
+        width: 100vw;
+    }
+    .footer-contents{
+        font-size: 14px;
+        width: 460px;
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+        
+    }
+    .coulmn-1 ul{
+        width: 120px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .coulmn-1 ul li{
+        padding: 10px  5px;
+    }
+    .footer-content-3{
+        display: none;
+    }
+    .social-connections{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .social-connections .social-icons{
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .up-direction-icon{
+        width: 20px;
+        height: 20px;
+        padding: 2px;
+    }
+    .main-footer-containor{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .footer-content-3{
+        display: none;
+    }
+    .footer-cafe-logo{
+        margin: 10px;
+    }
+    .footer-content-containor{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-contents{
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .coulmn-1{
+        width: 115px;
+        display: flex;
+        justify-content: center;
+    }
+    .coulmn-1 li{
+        margin: 2px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .social-connections .social-icons{
+        width: 17px;
+        height: 17px;
+    }
+    .social-connections{
+        width: 280px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}

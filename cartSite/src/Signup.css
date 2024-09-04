@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+}
+.content-containor{
+    padding: 10px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-contents{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-contents > .input-contaonors{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+.input-contaonors >label{
+    height: 30px;
+    padding: 10px 5px;
+    font-size: 16px;
+    color: rgb(74, 45, 7);
+}
+.input-contaonors > input{
+    height: 30px;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    margin-top: 10px;
+    color: rgb(74, 45, 7);
+    border: 1px antiquewhite;
+    border-style: ridge;
+    outline: 1px groove rgb(239, 200, 149);
+}
+
+.login-btn, .log-out-btn{
+    background-color: rgb(238, 196, 141);
+    width: 100px;
+    font-size: 14px;
+    font-weight: 450;
+    padding: 3px 10px;
+    border: 1px rgb(95, 55, 3);
+    border-style:groove;
+}
+.signup-btn{
+    width: 100px;
+    font-size: 14px;
+    font-weight: 450;
+    padding: 3px 10px;
+    color: rgb(247, 238, 226);
+    background-color: rgb(186, 111, 13);
+    border: 1px rgb(95, 55, 3);
+    border-style:groove;
+    margin: 20px;
+}
+.login-btn:hover, .log-out-btn:hover{
+    color: rgb(247, 238, 226);
+    background-color: rgb(186, 111, 13);
+}
+.signup-btn:hover{
+    background-color: rgb(238, 196, 141);
+    color: rgb(98, 60, 9);
+}
+.already-have-account{
+    font-size: 12px;
+    color: rgb(121, 73, 11);
+}

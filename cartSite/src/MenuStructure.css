@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.Item-containor{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.Image-containor{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+.Image-containor img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+button{
+    margin: 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-family: "Poppins";
+    font-size: 11px;
+    color: rgb(65, 39, 5);
+    cursor: pointer;
+    background-color: rgb(249, 239, 225);
+    transition: 0.4s all linear;
+}
+button:hover{
+    background-color: rgb(251, 217, 172);
+}
+.remove-btn-menu{
+    width: 100px;
+    background-color: red;
+    color: azure;
+}
+
+.remove-btn-menu:hover{
+    background-color: rgb(169, 7, 7);
+}
+.cart-icon{
+    color: rgb(55, 35, 7);
+    transition: 0.2s all linear;
+}
+.cart-icon:hover{
+    color: rgb(102, 60, 4);
+}
+
+@media screen and (max-width:550px) {
+    .Item-containor{
+        margin: 0px;
+        /* background-color: orange; */
+    }
+    .Item-containor{
+        border: 1px solid black;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 150px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Image-containor{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+    .Image-containor img{
+        border-radius: 10px;
+    }
+    .Item-containor h4, .Item-containor h5{
+        font-size: 12px;
+    }
+    .Item-containor p{
+        font-size: 12px;
+    }
+    .remove-btn-menu,.add-btn-menu{ 
+            margin: 0px;       
+            width: 80px;
+            font-size: 11px;        
+    }
+    .btns-containor{
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        gap: 10px;
+    }
+    
+}

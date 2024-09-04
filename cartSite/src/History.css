@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.History-main-containor{
+    width: 100vw;
+    background-color: rgb(245, 223, 195);
+}
+.history-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 10px;
+    margin-left: 50px;
+    font-size: 38px;
+}
+.under-line{
+    width: 100px;
+    background-color: rgb(247, 146, 16);
+    height: 4px;
+}
+.history-content-containor{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+
+}
+.history-img-containor{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding:10px;
+}
+.JuiceShopImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.history-content{
+    width: 50%;
+    padding: 10px;
+    overflow: scroll;
+    overflow-wrap: break-word;
+}
+.hs-content-containor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.history-content-para{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align:justify;
+}
+.hide{
+    display: none;
+}
+.history-read-more,.back{
+    padding: 5px;
+    width: 120px;
+    height: 33px;
+    font-size: 13px;
+    border: 1px rgb(237, 201, 157) groove;
+}
+.history-read-more:hover,.back:hover{
+    box-shadow: 2px 2px 4px 0px rgb(156, 153, 153);
+}
+@media screen and (max-width:900px) {
+
+    .history-heading{
+        font-size: 28px;
+        font-weight: 500;
+        color: rgb(63, 36, 1);
+    }    
+    .under-line{
+        width: 60px;
+    }
+    .history-content-para{
+        padding: 0px 5px;
+        font-size: 12px;
+        line-height: 25px;
+        text-align:justify;
+    }
+    .history-img-containor{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 20px;
+        padding: 20px 10px;
+    }
+    .JuiceShopImg{
+        width: 90%;
+        height: 85%;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .history-heading{
+        font-size: 18px;
+    }
+    .under-line{
+        width: 50px;
+        height: 2.5px;
+    }
+    
+}

@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.main-fouth-home-containor{
+    width: 100vw;
+    min-height: 550px;
+    padding: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fourth-home-heading-containor{
+    width: 100%;
+    padding: 20px;
+    padding-left: 200px;
+    font-family: 'poppins';
+    font-size: 36px;
+    color: rgb(66, 39, 3);
+}
+.fourth-home-content-containor{
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    background-color: rgb(247, 224, 194);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Review-containor{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.customer-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.star-containor{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.google-icon{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+.customer-name{
+    font-family: 'poppins';
+    font-size: 14px;
+    padding-left: 20px;
+}
+.customer-review{
+    
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+    font-family: 'poppins';
+    font-size: 13px;
+    text-align: justify;
+    overflow: hidden;
+    color: rgb(65, 38, 4);
+    background-color: rgba(225, 238, 250,0.8);
+}
+.hide-slide{
+    display: none;
+}
+.left-arrow-review, .right-arrow-review{
+    height: 30px;
+    width: 30px;
+    Margin :20px;
+}
+
+@media screen and (max-width:1130px) {
+    .main-fouth-home-containor{
+        width: 100vw;
+        padding: 10px;
+    }
+    .fourth-home-heading-containor{
+        font-size: 28px;
+    }
+    .fourth-home-heading-containor{
+        width: 100%;
+        padding: 20px;
+        padding-left: 40px;
+        font-family: 'poppins';
+        color: rgb(66, 39, 3);
+    }
+    .fourth-home-content-containor{
+        padding: 10px;
+        margin: 0px;
+    }
+    .main-fouth-home-containor{
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .underline-cr{
+        width: 200px;
+    }
+    .right-arrow-review,.left-arrow-review{
+        width: 35px;
+        height: 35px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .customer-details{
+        border-radius: 10px;
+    }
+    .Review-containor{
+        background-color: orange;
+    }
+    .fourth-home-content-containor{
+        /* background-color: pink; */
+        padding: 10px;
+    }
+    .Review-containor{
+        width: 200px;
+        height: 250px;
+        padding: 5px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        border-radius: 15px;
+    }
+    .hide-slide{
+        display: none;
+    }
+    .customer-name{
+        font-family: 'poppins';
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .google-icon{
+        height: 15px;
+        width: 15px;
+        margin: 5px;
+    }
+    .Review-containor-4{
+        display: none;
+    }
+    .left-arrow-review, .right-arrow-review{
+        height: 30px;
+        width: 30px;
+        Margin :20px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .fourth-home-content-containor{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .left-arrow-review{
+        position: absolute;
+        left: 10px;
+        height: 20px;
+        width: 20px;
+    }
+    .right-arrow-review{
+        position: absolute;
+        right: 10px;
+        height: 20px;
+        width: 20px;
+    }
+    .fourth-home-heading-containor{
+        font-size: 18px;
+    }
+    .underline-cr{
+        width: 130px;
+    }
+    .customer-details{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px;
+    }
+    .customer-review{
+        display: none;
+    }
+    .Review-containor{
+        display: flex;
+        flex-direction: column;
+    }
+    .Review-containor{
+        width: 200px;
+        height: 100px;
+        padding: 5px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        border-radius: 15px;
+    }
+    .hide-slide{
+        display: none;
+    }
+    
+}

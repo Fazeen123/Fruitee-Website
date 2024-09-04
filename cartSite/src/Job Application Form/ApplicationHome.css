@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.content-containor{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 246, 249);
+    margin: 10px 15px;
+    border-radius: 10px;
+}
+button{
+    width: 100px;
+    height: 28px;
+    font-size: 15px;
+    padding: 3px;
+    margin: 20px;
+}
+.name-containor , .personal-2 , .personal-3, .personal-4, .academic-1,.job-section{
+    width:90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acdemic-2{
+    width: 1240px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px;
+}
+h3{
+    padding: 10px 20px ;
+}
+.interest-text{
+    margin-left: 105px;
+}
+.confirmation-containor{
+    width: 70vw;
+    height: 25px;
+    margin-left:20px ;
+    display: flex;
+    align-items: center;
+}
+
+.confirmation-containor>.confirm-cb{
+    margin-left: 10px;
+}
+.Main-JobForm-containor{
+    width: 100vw;
+    display: flex;
+    padding: 10px;
+}
+.form-submit-btn{
+    background-color: aliceblue;
+    border: 2px groove rgb(12, 64, 110);
+    line-height: 0px;
+    color: rgb(6, 49, 87);
+    background-color: rgb(177, 212, 243);
+}
+.form-submit-btn:hover{
+    background-color: rgb(6, 43, 75);
+    color: aliceblue;
+}
+.back-btn{
+    border: 2px solid rgb(102, 63, 13);
+    line-height: 0px;
+}
